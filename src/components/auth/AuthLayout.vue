@@ -2,7 +2,7 @@
 <div class="auth-layout row align-content--center">
   <div class="flex xs12 pa-3 flex-center">
     <router-link class="py-5 flex-center" to="/">
-      <va-icon-vuestic />
+      <p class="display-1" style="background-color: rgb(248, 25, 83);">YEON-ENT</p>
     </router-link>
   </div>
 
@@ -13,8 +13,8 @@
           v-model="tabIndex"
           center
         >
-          <va-tab>{{ $t('auth.login') }}</va-tab>
-          <va-tab>{{ $t('auth.createNewAccount') }}</va-tab>
+          <va-tab>로그인</va-tab>
+          <va-tab>회원가입</va-tab>
         </va-tabs>
 
         <va-separator/>

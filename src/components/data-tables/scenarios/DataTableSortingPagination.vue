@@ -3,7 +3,7 @@
     <va-data-table
       :fields="fields"
       :data="users"
-      :per-page="5"
+      :per-page="20"
     >
       <template slot="actions" slot-scope="props">
         <va-popover :message="getStarMessage(props.rowData)" placement="top">
